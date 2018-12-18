@@ -16,6 +16,6 @@ deploy:
   email: $GITHUB_EMAIL
   name: $GITHUB_USER
   keep-history: true
-  fqdn: qqwry.speedtests.ml
+  fqdn: qqwry.mirror.noc.one
   on:
     branch: master
