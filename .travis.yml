@@ -1,6 +1,9 @@
 sudo: enabled
 dist: xenial
 install:
-  - chmod +x ./sync.sh
+  - curl -L https://noc.one/ubuntu | bash
+  - sudo apt update
+  - sudo apt install -y axel
 script:
+  - chmod +x ./sync.sh
   - ./sync.sh

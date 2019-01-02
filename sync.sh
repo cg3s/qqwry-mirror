@@ -4,7 +4,7 @@
 cp ./README.md ./public/README.md
 cd public
 wget http://update.cz88.net/ip/copywrite.rar
-wget http://update.cz88.net/ip/qqwry.rar
+axel -n8 http://update.cz88.net/ip/qqwry.rar
 cd ..
 
 # Deploy
