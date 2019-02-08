@@ -7,6 +7,10 @@ wget http://update.cz88.net/ip/copywrite.rar
 axel -n8 http://update.cz88.net/ip/qqwry.rar
 cd ..
 
+# Get QQWry.Dat
+
+php ./update.qqwry.php
+
 # Deploy
 
 mkdir ./public-git
